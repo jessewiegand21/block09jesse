@@ -1,0 +1,45 @@
+.header {
+    font-size: 15px;
+    background-color: aqua;
+    width: 100%;
+    border: 2px solid black;
+    height: 75px;
+}
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+.navigation {
+    float: right;
+    height: 100%;
+}
+.logo_container {
+    height: 100%;
+    float: left;
+    display: table;
+    vertical-align: center;
+}
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    text-align: center;
+}
+body {
+    background-color: grey;
+}
+
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.quote {
+    text-align: center;
+    font-size: 50px;
+}
