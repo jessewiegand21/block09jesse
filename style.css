@@ -6,40 +6,73 @@
     height: 75px;
 }
 .inner_header{
-    width: 1000px;
     height: 100%;
     display: block;
-    margin: auto;
 }
 .navigation {
     float: right;
     height: 100%;
+    margin-right: 20px;
 }
 .logo_container {
     height: 100%;
     float: left;
     display: table;
     vertical-align: center;
+    margin-left: 30px;
 }
 .navigation a {
     height: 100%;
     display: table;
     float: left;
     padding: 0px 20px;
-    text-align: center;
 }
-body {
+#homepage {
     background-color: grey;
 }
-
+#aboutpage{
+    background-color: lightgray;
+}
 
 .photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
   }
 .quote {
     text-align: center;
     font-size: 50px;
 }
+
+
+.aboutquote{
+    position: relative;
+    text-align: center;
+    left: 100px;
+}
+img{
+    max-width: 60%;
+    max-height: 50%;
+}
+.aboutpic{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    left: 100px;
+    height: 700px;
+}
+.box{
+    width: 100%;
+}
+.innerbox2{
+    float: right;
+    position: relative;
+    right: 70px;
+    bottom: 140px;
+}
+.innerbox1{
+    position: relative;
+    left: 60px;
+}
+    
