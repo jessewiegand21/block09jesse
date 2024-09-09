@@ -1,32 +1,22 @@
 .header {
-    font-size: 15px;
-    background-color: aqua;
-    width: 100%;
-    border: 2px solid black;
-    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px; 10%;
 }
-.inner_header{
-    height: 100%;
-    display: block;
+
+ * {
+    box-sizing:border-box;
+    margin: 0;
+    background-color: lightgray;
 }
-.navigation {
-    float: right;
-    height: 100%;
-    margin-right: 20px;
+.nav_links{
+    list-style: none;
 }
-.logo_container {
-    height: 100%;
-    float: left;
-    display: table;
-    vertical-align: center;
-    margin-left: 30px;
-}
-.navigation a {
-    height: 100%;
-    display: table;
-    float: left;
+.nav_links li {display: inline-block;
     padding: 0px 20px;
 }
+
 #homepage {
     background-color: grey;
 }
@@ -47,9 +37,10 @@
 
 
 .aboutquote{
-    position: relative;
     text-align: center;
+    position: relative;
     left: 100px;
+    top: 50px;
 }
 img{
     max-width: 60%;
@@ -61,6 +52,7 @@ img{
     text-align: center;
     left: 100px;
     height: 700px;
+    top: 100px;
 }
 .box{
     width: 100%;
@@ -69,10 +61,58 @@ img{
     float: right;
     position: relative;
     right: 70px;
-    bottom: 140px;
+    bottom: 80px;
 }
 .innerbox1{
     position: relative;
     left: 60px;
 }
+#portfoliopage{
+    background-color: lightgray;
+}
+.portfolioquote{
+    text-align: center;
+    position: relative;
+
+}
+.portbox1{
+    background-color: red;
+    position: relative;
+    left: 125px;
+}
+
+.tablerow{
+    display: table;
+    width: 100%;
+}
+.tablecell{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+}
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+.hvacphoto {
+    width: 1000px;
+    height: 800px;
+}
+.codephoto {
+    width: 1000px;
+    height: 800px;
+}
+.landscapephoto {
+    width: 1000px;
+    height: 800px;
+}
+
+
     
