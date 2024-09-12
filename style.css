@@ -1,24 +1,10 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px; 10%;
+    font-size: 15px;
+    background-color: aqua;
+    width: 100%;
+    border: 2px solid black;
+    height: 75px;
 }
-<<<<<<< HEAD
-
- * {
-    box-sizing:border-box;
-    margin: 0;
-    background-color: lightgray;
-}
-.nav_links{
-    list-style: none;
-}
-.nav_links li {display: inline-block;
-    padding: 0px 20px;
-}
-
-=======
 .inner_header{
     height: 100%;
     display: block;
@@ -41,7 +27,6 @@
     float: left;
     padding: 0px 20px;
 }
->>>>>>> about
 #homepage {
     background-color: grey;
 }
@@ -62,16 +47,9 @@
 
 
 .aboutquote{
-<<<<<<< HEAD
-    text-align: center;
-    position: relative;
-    left: 100px;
-    top: 50px;
-=======
     position: relative;
     text-align: center;
     left: 100px;
->>>>>>> about
 }
 img{
     max-width: 60%;
@@ -83,10 +61,6 @@ img{
     text-align: center;
     left: 100px;
     height: 700px;
-<<<<<<< HEAD
-    top: 100px;
-=======
->>>>>>> about
 }
 .box{
     width: 100%;
@@ -95,65 +69,10 @@ img{
     float: right;
     position: relative;
     right: 70px;
-<<<<<<< HEAD
-    bottom: 80px;
-=======
     bottom: 140px;
->>>>>>> about
 }
 .innerbox1{
     position: relative;
     left: 60px;
 }
-<<<<<<< HEAD
-#portfoliopage{
-    background-color: lightgray;
-}
-.portfolioquote{
-    text-align: center;
-    position: relative;
-
-}
-.portbox1{
-    background-color: red;
-    position: relative;
-    left: 125px;
-}
-
-.tablerow{
-    display: table;
-    width: 100%;
-}
-.tablecell{
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 75px;
-}
-.container1 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 160px;
-    margin-top: 50px;
-}
-.hvacphoto {
-    width: 1000px;
-    height: 800px;
-}
-.codephoto {
-    width: 1000px;
-    height: 800px;
-}
-.landscapephoto {
-    width: 1000px;
-    height: 800px;
-}
-
-
-=======
->>>>>>> about
     
