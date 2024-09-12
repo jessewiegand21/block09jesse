@@ -75,4 +75,27 @@ img{
     position: relative;
     left: 60px;
 }
-    
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.hvacphoto {
+    width: 300px;
+    height: 200px;
+}
+.portfolioquote {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 120px;
+}
+ 
