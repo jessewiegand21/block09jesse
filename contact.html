@@ -8,13 +8,13 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='script.js'></script>
 </head>
-<body id="aboutpage">
+<body id="contactpage">
     <header>
         <div class="header">
          <div class="inner_header">
              <div class="logo_container">
-                 <h1>About</h1>
-             </div>
+                 <h1>Contact</h1>
+             </div>    
                  <ul class="navigation">
                   <a href="home.html"> <li>Home</li></a>
                   <a href="about.html"><li>About</li></a>
@@ -23,33 +23,32 @@
                  </ul>
              </div>
          </div>
-        </div>
      </header>
-<center>
-        <div class="innerbox1">
-     <H2>My Personal Interests:</H2>
-        <ol>
-            <li>Outdoors</li>
-            <li>Car Audio</li>
-            <li>Time With Family</li>
-        </ol>
-     </div>
-</center>
-<center>
-        <div class="innerbox2">
-     <h2>Things I'm Good At:</h2>
-        <ol>
-            <li>Working With Others</li>
-            <li>Software Development</li>
-            <li>Hard Worker With Drive</li>
-        </ol>
+     <center>
+     <form class="form" action="success.html">
+        <div>
+        <label id="name" for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name">
         </div>
-</center>
-     <div class="aboutquote">
-        <h2>You Can Trust I Will Be A Great Asset To Your Company!</h2>
-     </div>
-     <div class="aboutpic">
-     <img src="https://cdn.corporatefinanceinstitute.com/assets/business-deal.jpeg" alt="business photo" srcset="">
-     </div>
+
+        <br>
+        
+        <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Example@gmail.com">
+        </div>
+
+        <br>
+
+        <div>
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Type message here"></textarea>
+        </div>
+
+        <br>
+
+        <input type="submit" id="submit">
+     </form>
+     </center>
 </body>
 </html>
